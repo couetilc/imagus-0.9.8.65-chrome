@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+
+#prettify json
+cat "${FILE}" | python -m json.tool
